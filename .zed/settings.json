@@ -1,0 +1,20 @@
+{
+  "language_models": {
+    "openai": {
+      "api_url": "http://localhost:11434/v1",
+      "available_models": [
+        {
+          "name": "qwen2.5-coder:14b",
+          "max_tokens": 8192,
+        },
+      ],
+    },
+  },
+  "assistant": {
+    "version": "2",
+    "default_model": {
+      "provider": "openai",
+      "model": "qwen2.5-coder:14b",
+    },
+  },
+}
